@@ -1,0 +1,27 @@
+| Função                  | Biblioteca       |
+| ----------------------- | ---------------- |
+| 🎤 Capturar microfone   | `sounddevice`    |
+| 📝 Voz → texto          | `faster-whisper` |
+| 🔊 Texto → voz          | `pyttsx3`        |
+| ⚙️ Abrir programas      | `subprocess`     |
+| ⚙️ Processos            | `psutil`         |
+| 🧠 Interpretar comandos | `re`             |
+| 🪟 Recursos do Windows  | `os`             |
+
+🎤 Microfone
+     ↓
+sounddevice
+     ↓
+faster-whisper
+     ↓
+"abra o bloco de notas"
+     ↓
+re + lógica de comandos
+     ↓
+subprocess
+     ↓
+📝 Bloco de Notas aberto
+     ↓
+pyttsx3
+     ↓
+🔊 "Bloco de notas aberto."

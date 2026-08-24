@@ -1,0 +1,67 @@
+Agatha
+
+├── Listen to you
+├── Understand your voice
+├── Open programmes
+├── Control that Windows
+
+C:\Agatha
+│
+├── src
+│   └── main.py
+│
+├── models
+│   └── piper
+│       ├── piper.exe
+│       ├── onnxruntime.dll
+│       └── ...
+│
+├── voices
+│   ├── en_GB-jenny_dioco-medium.onnx
+│   └── en_GB-jenny_dioco-medium.onnx.json
+│
+├── sounds
+│
+├── data
+└── logs
+
+Create Agatha's workflow
+
+✅ Gerar voz
+🔊 Reproduzir a voz automaticamente
+🎤 Capturar sua voz pelo microfone
+📝 Converter voz em texto
+⚙️ Executar comandos no Windows
+
+
+agatha/
+│
+├── app.py
+│
+├── audio/
+│   ├── microphone.py
+│   ├── speech_to_text.py
+│   └── wake_word.py
+│
+├── brain/
+│   ├── intent.py
+│   ├── command_router.py
+│   └── context.py
+│
+├── actions/
+│   ├── applications.py
+│   ├── windows.py
+│   ├── keyboard.py
+│   ├── mouse.py
+│   └── system.py
+│
+├── speech/
+│   └── text_to_speech.py
+│
+├── config/
+│   └── settings.py
+│
+├── tests/
+│
+├── requirements.txt
+└── README.md
