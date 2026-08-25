@@ -25,3 +25,5 @@ subprocess
 pyttsx3
      ↓
 🔊 "Bloco de notas aberto."
+
+sounddevice
