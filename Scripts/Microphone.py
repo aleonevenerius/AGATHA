@@ -1,20 +1,5 @@
-# Import the module
-import sounddevice as sd
+import sounddevice as sd # Importing the module
+import Numpy # Import Numpy Library
 
-
-
-print("Recording 3 seconds...")
-
-duration = 3 # seconds
-fs = 44100 #
-myRecording =  sd.rec(int(duration * fs), samplerate=fs, channels=2)
-#sd.play()
-sd.wait()
-
-print("Done.")
-
-print("Playing...")
-
-#sd.play(, fs)
-
-print("Done.")
+myarray =
+fs = 44100
